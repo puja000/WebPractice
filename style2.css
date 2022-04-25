@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 250px;
+    background-color: aqua;
+    border: solid teal 1px;
+    overflow: auto;
+}
+.tooltip{
+
+}
+.tooltip .tooltip-text{
+    visibility: hidden;
+    width: 150px;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
